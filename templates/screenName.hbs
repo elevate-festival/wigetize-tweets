@@ -1,0 +1,11 @@
+<h3>
+  <a href="https://twitter.com/{{screen_name}}">@{{screen_name}}</a>
+</h3>
+<ul>
+  {{#each tweets}}
+  <li>
+    <a href="https://twitter.com/{{user.screen_name}}">@{{user.screen_name}}</a>:
+    <div class="tweet">{{text}}</div>
+  </li>
+  {{/each}}
+</ul>
