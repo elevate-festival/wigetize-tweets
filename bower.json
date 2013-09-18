@@ -1,0 +1,13 @@
+{
+  "name": "tweets-widget",
+  "version": "0.0.0",
+  "authors": [
+    "elf Pavlik <perpetual-tripper@wwelves.org>"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "handlebars.js": "~1.0.12"
+  }
+}
